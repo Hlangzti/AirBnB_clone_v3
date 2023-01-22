@@ -12,7 +12,7 @@ from models import storage
 def status():
     """Returns a JSON"""
 
-    return jsonify({"status":"OK"})
+    return jsonify({"status": "OK"})
 
 
 @app_views.route('/api/vi/stats', methods=['GET'])
