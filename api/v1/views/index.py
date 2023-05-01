@@ -1,5 +1,5 @@
-
-n file that routes the Flask API's"""
+#!/usr/bin/python3
+"""Python file that routes the Flask API's"""
 from api.v1.views import app_views
 from flask import jsonify, request
 from models import storage
@@ -35,4 +35,3 @@ def stats():
         result[k] = storage.count(v)
 
     return jsonify(result)
-

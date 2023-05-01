@@ -1,5 +1,5 @@
-
-n file that works with api calls on Place objects"""
+#!/usr/bin/python3
+"""Python file that works with api calls on Place objects"""
 from api.v1.views import app_views
 from flask import jsonify, request, abort
 from models import storage
